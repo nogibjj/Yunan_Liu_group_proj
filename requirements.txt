@@ -1,0 +1,17 @@
+black
+pylint
+pytest
+ipython
+fastapi
+uvicorn[standard]
+dask
+dask[distributed]
+jupyter
+s3fs
+bokeh
+streamlit
+click
+google-cloud-bigquery
+google-auth
+db-dtypes
+gcloud

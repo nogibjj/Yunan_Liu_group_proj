@@ -14,7 +14,9 @@
 
 ## Calculator funciton
 
-## Through type in the numbers and operation symbol in the url, the api will return the result in the REST interface. It currently only allows simple calculations(addition, substraction, multiplication and division).
+## Through type in the numbers and operation symbol in the url, the api will return the result in the REST interface. It currently only allows simple calculations(addition, substraction, multiplication and division). 
+### * For the division operation, the user will need to use 'd' instead of '/' as operation symbol.
+
 ![Alt text](/readme_source/substract.png)
 
 ## The api will also handle some basic errors, such as divisor being zero, and invalid operational symbol
@@ -22,3 +24,4 @@
 
 ## The application is pushed to AWS ECR and AWS app runner, and the aws app runner's auto deploy function is turn on, which allows the app runner to update automatically when new (updated) docker image is pushed to AWS ECR.
 ![Alt text](/readme_source/apprunner.png)
+![Alt text](/readme_source/apppush.png)

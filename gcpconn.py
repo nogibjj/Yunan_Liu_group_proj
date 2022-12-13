@@ -1,10 +1,10 @@
 from google.cloud import bigquery
 from google.oauth2 import service_account
-# credentials = service_account.Credentials.from_service_account_file(
-# '/app/fresh-span-361719-e4e6a5688c1e.json')
-
 credentials = service_account.Credentials.from_service_account_file(
-'/workspaces/Yunan_Group_Proj/fresh-span-361719-e4e6a5688c1e.json')
+'/app/fresh-span-361719-e4e6a5688c1e.json')
+
+# credentials = service_account.Credentials.from_service_account_file(
+# '/workspaces/Yunan_Group_Proj/fresh-span-361719-e4e6a5688c1e.json')
 
 project_id = 'fresh-span-361719'
 client = bigquery.Client(credentials= credentials,project=project_id)

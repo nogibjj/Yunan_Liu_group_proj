@@ -25,3 +25,6 @@
 ## The application is pushed to AWS ECR and AWS app runner, and the aws app runner's auto deploy function is turn on, which allows the app runner to update automatically when new (updated) docker image is pushed to AWS ECR.
 ![Alt text](/readme_source/apprunner.png)
 ![Alt text](/readme_source/apppush.png)
+
+# The application can be run through the link below
+### https://bii3pcrasv.us-east-1.awsapprunner.com 
